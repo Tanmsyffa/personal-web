@@ -8,74 +8,26 @@ export default {
           id: 1,
           name: 'HTML',
           imageUrl: 'https://cdn-icons-png.flaticon.com/512/1051/1051277.png',
-          status: 'Advanced'
+          status: 'Beginner'
         },
         {
           id: 2,
           name: 'CSS',
           imageUrl: 'https://cdn-icons-png.flaticon.com/512/732/732190.png',
-          status: 'Advanced'
+          status: 'Beginner'
         },
         {
           id: 3,
-          name: 'PHP',
-          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-php-2038871-1720084.png',
-          status: 'Advanced'
+          name: 'Java',
+          imageUrl: 'https://cdn.icon-icons.com/icons2/159/PNG/256/java_22523.png',
+          status: 'Beginner'
         },
         {
           id: 4,
-          name: 'Javascript',
-          imageUrl: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png',
-          status: 'Advance'
-        },
-        {
-          id: 5,
-          name: 'Laravel',
-          imageUrl: 'https://cdn.worldvectorlogo.com/logos/laravel-2.svg',
-          status: 'Advance'
-        },
-        {
-          id: 6,
-          name: 'Codeigniter',
-          imageUrl: 'https://cdn-peanutsquare.b-cdn.net/wp-content/uploads/2022/11/codeigniter-logo.png',
-          status: 'Intermediate'
-        },
-        {
-          id: 7,
-          name: 'VueJS',
-          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-vue-282497.png?f=webp',
-          status: 'Intermediate'
-        },
-        {
-          id: 8,
-          name: 'AlpineJS',
-          imageUrl: 'https://avatars.githubusercontent.com/u/59030169?s=200&v=4',
+          name: 'C++',
+          imageUrl: 'https://cdn.worldvectorlogo.com/logos/c.svg',
           status: 'Beginner'
         },
-        {
-          id: 9,
-          name: 'NodeJS',
-          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-node-js-1174925.png',
-          status: 'Beginner'
-        },
-        {
-          id: 10,
-          name: 'Tailwind',
-          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg',
-          status: 'Advance'
-        },
-        {
-          id: 11,
-          name: 'Bootstrap',
-          imageUrl: 'https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-logo-shadow.png',
-          status: 'Intermediate'
-        },
-        {
-          id: 12,
-          name: 'ReactJS',
-          imageUrl: 'https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png',
-          status: 'Beginner'
-        }
       ],
       tools: [
         {
@@ -89,18 +41,6 @@ export default {
           name: 'GitHub',
           imageUrl: 'https://cdn-icons-png.flaticon.com/512/25/25231.png',
           status: 'Git Hosting'
-        },
-        {
-          id: 3,
-          name: 'NPM',
-          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-npm-3-1175132.png',
-          status: 'Package Manager'
-        },
-        {
-          id: 4,
-          name: 'MySQL',
-          imageUrl: 'https://cdn-icons-png.flaticon.com/512/5968/5968313.png',
-          status: 'Database'
         },
       ]
     };
@@ -124,22 +64,36 @@ export default {
         class="text-sm md:text-lg text-justify flex flex-col gap-4 md:flex-row md:gap-8 md:justify-left md:items-center">
         <div class="flex justify-center">
           <img class="w-9/12 rounded-full mb-3 fadein-up"
-            src="https://i1.sndcdn.com/avatars-000214125831-5q6tdw-t500x500.jpg" alt="Foto">
+            src="https://img.freepik.com/free-photo/3d-illustration-boy-with-camera-his-hand_1142-36694.jpg?w=740&t=st=1721064022~exp=1721064622~hmac=8460ce8262ba1bd321128424b5652d25c2be556659265fc483ca18674ad1e089" alt="Foto">
         </div>
         <div class="md:w-7/12">
           <p class="mb-3 md:mb-7 fadein-left fadeins-1">
-            &nbsp; &nbsp; &nbsp; Hi everyone! My name is Bagas Rakha Putra. I'm a web developer from Bogor, West Java. I
-            have 1 year of experience in back-end web development.
-            I really enjoy what I do right now, in my opinion, creating programs is not just a job, but also an art that
-            has
-            aesthetic value
+            &nbsp; &nbsp; &nbsp; Hi everyone! My name is Sultan Tammam Musyaffa. I'm from Jakarta, South Jakarta.
+            I'm currently studying at BudiLuhur University, and I'm an informatics student, 
+            of course my aspirations are not far from that, I want to become a front-end developer.
           </p>
-          <p class="mb-3 fadein-left fadeins-2">
-            &nbsp; &nbsp; &nbsp; My job is to build your website to be functional and user-friendly yet still attractive.
-            In addition, I provide a personal touch to your product and ensure that the website catches attention and is
-            easy to use.
-            My goal is to convey your message and identity in the most creative way. If you are interested in hiring me,
-            please contact the listed contact.
+          <p class="mb-3 md:mb-7 fadein-left fadeins-1">
+            &nbsp; &nbsp; &nbsp; I have been interested in programming since I was in grade 12 of high school, 
+            I thought that programming was an interesting thing, that's why I chose to focus on that field.
+            I was interested in programming because at that time I was trying to get involved in Android development. 
+            The first time I tried to build a customized Linux kernel, I tried to fix some existing bugs and made it useable 
+            for my device, that was where I first encountered a programming language dominated by C and Makefile.
+          </p>
+          <p class="mb-3 md:mb-7 fadein-left fadeins-1">
+            &nbsp; &nbsp; &nbsp; After 1 year passed, I tried to build an AOSP (Android Open Source Software) ROMs for my device. 
+            There were lots of things that I had never found before, start from HALs (Hardware Abstraction Layer), 
+            AIDL (Android Interface Definition Language), VNDK (Vendor Native Development Kit), and many others.
+          </p>
+          <p class="mb-3 md:mb-7 fadein-left fadeins-1">
+            &nbsp; &nbsp; &nbsp; After that, I started studying and deepening about web development, 
+            starting from HTML, CSS, Java script, and others. That's my short story about how I became
+            interested in the world of programming.
+          </p>
+          <p class="mb-3 md:mb-7 fadein-left fadeins-1">
+            &nbsp; &nbsp; &nbsp; I really like open source projects, and I am very enthusiastic
+            to learn about it because apart from support of my family, this is also because
+            someone I love continues to encourage and provide support to me, she's Dela Gustia Ningsih, 
+            very beautiful women.
           </p>
         </div>
 
